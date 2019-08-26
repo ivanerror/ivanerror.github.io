@@ -2,11 +2,14 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="owl.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="js/navbar.js"></script>
+    <script src="js/instafeed.js"></script>
+    <script src="js/custom.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
@@ -15,8 +18,12 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style/accel-style.css">
     <link rel="stylesheet" href="style/carousel.css">
+    <link rel="stylesheet" href="style/accel-instafeed.css">
     <title>Home - Accel Photo</title>
 </head>
+      
+      
+
 
 <body>
 
@@ -206,11 +213,7 @@
     <!-- LightWidget WIDGET -->
 
     <div class="container">
-        <div class="row">
-            <div class="col">
-                    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe
-                    src="//lightwidget.com/widgets/64a1c2a505ea5708bfea3e64c3ad573d.html" scrolling="no" allowtransparency="true"
-                    class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>  
+        <div class="row" id="instafeed">
             </div>
         </div>
     </div>

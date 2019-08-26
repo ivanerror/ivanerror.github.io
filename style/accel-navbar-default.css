@@ -1,0 +1,30 @@
+.navbar {
+    font-family: raleway, sans-serif;
+    z-index: 9999;
+    letter-spacing: 3px;
+    font-size: 12px;
+    background: white;
+}
+
+
+.navbar a {
+    transition: 0.5s;
+    color: black;
+}
+
+.navbar a:hover {
+    color: #A69072;
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.navbar-brand {
+    padding: 0px 60px;
+}
+
+.nav-item {
+    margin: 20px;
+    font-weight: 800;
+}

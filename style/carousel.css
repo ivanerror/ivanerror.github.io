@@ -1,0 +1,50 @@
+.carousel-caption1 {
+    max-width: 100vh;
+    top: 10%;
+    right: 50%;
+    color: black;
+}
+
+.carousel-caption2 {
+    max-width: 50vh;
+    top: 15%;
+    right: 50%;
+    color: #eee;
+}
+
+.carousel-caption3 {
+    max-width: 50vh;
+    top: 60%;
+    left: 60%;
+    color: #eee;
+}
+
+.carousel-caption4 {
+    max-width: 50vh;
+    top: 60%;
+    left: 59%;
+    color: #000;
+}
+.carousel-caption h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.carousel-caption p {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 9px;
+    line-height: 1.9;
+}
+
+.carousel-item {
+    max-width: 100%;
+    height: auto;
+    min-height: 300px;
+    -webkit-background-size: cover;
+    background-size: cover;
+}

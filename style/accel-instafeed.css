@@ -8,7 +8,7 @@
 .insta-gallery{
     transition: 500ms;
     padding: 0;
-    margin: 10px;
+    margin: 0.5vw;
 }
 
 .insta-gallery:hover{

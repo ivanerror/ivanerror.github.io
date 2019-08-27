@@ -8,19 +8,18 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3000000', endColorstr='#00000000', GradientType=0);
     /* IE6-9 */
     transition: 500ms ease;
-}
+}   
 
-.navbar:hover {
+/* .navbar:hover {
     background-color: rgba(0, 0, 0, .8);
-}
-
+} */
 .navbar.scrolled {
     background: #fff;
     color: black;
 }
 
 .navbar a.scrolled {
-    transition: 0.5s;
+    transition: 0.3s;
     color: black;
 }
 
@@ -38,24 +37,24 @@
 }
 
 .navbar-brand img {
-    width: 200px;
+    height: 45px;
 }
 
 .navbar-brand {
     padding: 0px 60px;
+    margin: 0;
 }
 
 .nav-item {
-    margin: 20px;
+    margin: 12px;
     font-weight: 800;
 }
 .big-pic {
     transition: 1s;
     text-align: center;
-    padding: 35px;
-    margin: 15px;
+    padding: 30px;
     background: white;
-    min-width: 375px;
+    margin: 15px 0;
 }
 
 
@@ -81,6 +80,7 @@
     font-size: 10px;
     font-weight: 200;
     color: #888;
+    margin-bottom: 0.5rem;
 }
 
 .big-pic h5 {
@@ -88,6 +88,10 @@
     font-family: lato;
     font-size: 10px;
     margin: 0 20%;
+}
+
+.my-big-pic-desc {
+    margin: 0.5rem;
 }
 
 .category {
@@ -107,63 +111,8 @@
 }
 
 .empty-div {
-    height: 10vh;
+    height: 5vw;
 }
-
-.footer-accel{
-    padding: 0 100px;
-}
-
-.footer-accel p{
-    margin: 0;
-    font-family: 'lato';
-    font-size: 12px;
-}
-
-.footer-accel h4{
-    font-family: lustria;
-    font-size: 18px;
-    margin-top: 50px;
-}
-
-
-.accessory {
-    height: 6px;
-    background-image: radial-gradient(
-      closest-side,
-      hsla(0, 0%, 50%, 1.0),
-      hsla(0, 0%, 50%, 0) 100%);
-    position: relative;
-  }
-  .accessory:after {
-    position: absolute;
-    top:  50%;
-    left: 50%;
-    display:block;
-    background-color: hsl(0, 0%, 75%);
-    height: 12px;
-    width:  12px;
-    transform: rotate(45deg);
-    margin-top:  -10px;
-    margin-left: -10px;
-    border-radius: 4px 0;
-    border: 4px solid hsla(0, 0%, 100%, 0.35);
-    background-clip: padding-box;
-    box-shadow: -10px 10px 0 hsla(0, 0%, 100%, 0.15), 10px -10px 0 hsla(0, 0%, 100%, 0.15);
-  }
-
-  .copyright{
-      text-align: center;
-      color: #555;
-      text-transform: uppercase;
-      font-family: lato;
-      font-size: 8px;
-      margin-top: 100px;
-  }
-
-  #img-ig-logo{
-      width: 10vw;
-  }
 
   @media only screen and (max-width: 400px) {
     .big-pic {

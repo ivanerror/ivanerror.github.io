@@ -3,12 +3,11 @@
     z-index: 9999;
     letter-spacing: 3px;
     font-size: 12px;
-    background: white;
-}
-
+    background-color: white;
+}   
 
 .navbar a {
-    transition: 0.5s;
+    transition: 0.3s;
     color: black;
 }
 
@@ -17,14 +16,15 @@
 }
 
 .navbar-brand img {
-    width: 200px;
+    height: 45px;
 }
 
 .navbar-brand {
     padding: 0px 60px;
+    margin: 0;
 }
 
 .nav-item {
-    margin: 20px;
+    margin: 12px;
     font-weight: 800;
 }

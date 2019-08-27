@@ -49,13 +49,13 @@
     margin: 20px;
     font-weight: 800;
 }
-
 .big-pic {
     transition: 1s;
     text-align: center;
     padding: 35px;
     margin: 15px;
     background: white;
+    min-width: 350px;
 }
 
 .big-pic:hover {
@@ -85,8 +85,8 @@
 .big-pic h5 {
     text-transform: uppercase;
     font-family: lato;
-    font-size: 14px;
-    margin: 0 10%;
+    font-size: 10px;
+    margin: 0 20%;
 }
 
 .category {

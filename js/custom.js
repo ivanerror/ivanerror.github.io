@@ -8,6 +8,6 @@ var userFeed = new Instafeed({
     template: '<div class="col insta-gallery"> <a href="{{link}}" target="_blank" id="{{id}}"><div class="square" style="background-image: url({{image}})"></div></a></div>',
     limit: 3,
     links: false,
-    orientation: 'square'
+    sortBy: 'most-recent'
   });
   userFeed.run();
